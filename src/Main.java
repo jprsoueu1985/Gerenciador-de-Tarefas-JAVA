@@ -10,6 +10,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         GerenciadorDeTarefas gerenciador = new GerenciadorDeTarefas();
+        // INICIA VERIFICACAO AUTOMATICA DE TAREFAS A CADA 1 MINUTO
         gerenciador.iniciarMonitoramentoAutomatico();
 
 
