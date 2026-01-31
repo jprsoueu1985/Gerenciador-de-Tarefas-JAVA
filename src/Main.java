@@ -23,6 +23,7 @@ public class Main {
             System.out.println("3 - Ver prazos próximos");
             System.out.println("4 - Alterar status da tarefa");
             System.out.println("5 - Menu de filtragem");
+            System.out.println("6 - Saber mais sobre este projeto? ");
             System.out.println("0 - Sair");
             System.out.print("Escolha: ");
             opcao = scanner.nextInt();
@@ -142,6 +143,10 @@ public class Main {
                         }
 
                     } while (opcaoFiltro != 0);
+                    break;
+
+                case 6:
+                    SobreOApp.sobreOApp();
                     break;
 
                 case 0:
